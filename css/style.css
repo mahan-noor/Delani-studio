@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,300&display=swap');
 #head{
-    background-image: url(./assets/backgrounds/image/h_img.jpg);
+    background-image: url('./backgrounds/h_img.jpg');
     background-repeat: no-repeat;
     color: white;
     text-align: center;
