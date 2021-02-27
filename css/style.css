@@ -5,12 +5,16 @@ html{
 }
 
 #head{
-    background-image: url(../assets/backgrounds/h_img.jpg)no-repeat;
+    background-image: url(../images/backgrounds/h_img.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     background-color: white;
     text-align: center;
     
+}
+h1{
+    font-size: 20px;
+    font-weight: bold;
 }
 #logo{
    margin-top: 12px;
