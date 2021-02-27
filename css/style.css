@@ -1,17 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400&display=swap');
 html{
     scroll-behavior: smooth;
 }
+
 #head{
     background-image: url(../assets/backgrounds/h_img.jpg)no-repeat;
+    background-size: cover;
     background-position: center;
     background-color: white;
     text-align: center;
+    
 }
 #logo{
    margin-top: 12px;
    margin-bottom: 24px;
    width: 70px;
    height: 70px;
+}
+.land{
+    text-align: center;
+    background-color: white;
+}
+#servicesoverlay{
+    text-align: center;
+
 }
