@@ -5,12 +5,17 @@ html{
 }
 
 #head{
-    background-image: url(../images/backgrounds/h_img.jpg)no-repeat;
+   background-image: url(../images/backgrounds/h_img.jpg);
+   background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-color: white;
     text-align: center;
-    
+    font-size: 20px;  
+}
+.mouse-icon{
+    padding: 10%;
+    animation: bounce 2s infinite;
 }
 h1{
     font-size: 20px;
