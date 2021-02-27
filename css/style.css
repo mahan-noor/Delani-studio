@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;700&display=swap');
-
-.html{
-    background-image: ur("../image/background/h_img.jpg";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,300&display=swap');
+#head{
+    background-image: url(./assets/backgrounds/image/h_img.jpg);
     background-repeat: no-repeat;
     color: white;
     text-align: center;
     padding-top: 230px;
     text-transform: uppercase;
-  
-   
- 
+}
+#logo{
+    padding-bottom: 50px;
 }
