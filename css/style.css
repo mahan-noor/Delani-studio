@@ -45,7 +45,6 @@ h1{
 }
 .what-we-do{
     font-family: sans-serif;
-    text-align: center;
     padding-top: 40px;
     font-size: 15px;
 }
@@ -66,10 +65,7 @@ h1{
    text-align: center;
 
 }
-#design{
-    display: none;
 
-}
 #dev{
     display: none;
 }
@@ -87,7 +83,8 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center; 
-     height: 50vh;          
+     height: 50vh; 
+     font-size: 20px;         
 }
 #name{
     margin-left: 100px;
@@ -96,7 +93,12 @@ h1{
     color: white;
 }
 #message{
-    margin-top: 20px;
     margin-left: 500px;
-    
+    height: 200px;
+    width: 600px;
+    padding-top: 0%;
+    text-align: left;
+}
+#email{
+
 }
