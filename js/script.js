@@ -1,30 +1,10 @@
 $(document).ready(function(){
-    $("#design-image").click(function(){
-        $("#design-image").slideDown('1500').hide('1000');
-        $("#design").show('1500');
+    $("#devimage").click(function(){
+        $("#dev").show();
+        $("#devimage").hide();
     });
-    $("#design").click(function(){
-        $("#design").slideUp('1500');
-        $("#design").slideDown('1500');
-    });
-});
-$(document).ready(function(){
-    $("#document-image").click(function(){
-        $("#document-image").slideDown('1500').hide('1000');
-        $("#document").show('1500');
-    });
-    $("#document").click(function(){
-        $("#document").slideUp('1500');
-        $("#document").slideDown('1500');
-    });
-});
-$(document).ready(function(){
-    $("#product-image").click(function(){
-        $("product-image").slideDown('1500').hide('1000');
-        $("#product").show('1500');
-    })
-    $("#product").click(function(){
-        $("#product").slideUp('1500').hide('1000');
-        $("product").slideDown('1500').hide('1000');
-    });
-});
+          $("#dev").click(function(){
+        $("#devimage").show();
+        $("#dev").hide();
+    })});
+   
