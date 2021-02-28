@@ -66,7 +66,14 @@ h1{
    text-align: center;
 
 }
+#design{
+    display: none;
+
+}
 #dev{
+    display: none;
+}
+#product{
     display: none;
 }
 
@@ -91,5 +98,5 @@ h1{
 #message{
     margin-top: 20px;
     margin-left: 500px;
-    margin
+    
 }
