@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $("#design-image").click(function(){
+        $("#design-image").slideDown('1500').hide('1000');
+        $("#design").show('1500');
+    });
+    $("#design").click(function(){
+        $("#design").slideUp('1500');
+        $("#design").slideDown('1500');
+    });
+});
+$(document).ready(function(){
+    $("#document-image").click(function(){
+        $("#document-image").slideDown('1500').hide('1000');
+        $("#document").show('1500');
+    });
+    $("#document").click(function(){
+        $("#document").slideUp('1500');
+        $("#document").slideDown('1500');
+    });
+});
