@@ -25,4 +25,13 @@ $("document").ready(function(){
         $("#designimage").show();
         $("#design").hide();
      })});
- 
+ function submit(){
+     var name = document.getElementById("name").value;
+     var message = document.getElementById("message").value;
+     var email = document.getElementById("email").value;
+     if(name,message,email == ''){
+         alert("make sure all field are filled");
+     } else{
+         alert("Thank you for contacting us, we have received your message" + '');
+     }
+ };
