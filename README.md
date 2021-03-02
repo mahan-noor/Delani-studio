@@ -1,9 +1,9 @@
 # Delani studio
 # Author
-*Ismahan Abey
+* Ismahan Abey
 
 # Description
- *This project is a web-application about a studio called delani that shows detail about services it offers  also has information about the studio.
+ * This project is a web-application about a studio called delani that shows detail about services it offers  also has information about the studio.
 # Technologies used
   * HTMl
   * CSS
