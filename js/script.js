@@ -26,10 +26,9 @@ $("document").ready(function(){
         $("#design").hide();
      })});
      //giving feedback
-$("button").click (function(mahan){
+$("button").click (function(){
      var client = document.getElementById('nameDetail').value;
      alert('we have received your message' + 'feel free to reach out to us');
-     mahan.preventDefault();
 });
      // my form button
      
